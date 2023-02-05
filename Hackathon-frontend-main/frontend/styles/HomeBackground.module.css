@@ -1,0 +1,75 @@
+
+.homeBackGradient {
+    background: rgb(255,255,255);
+    background: linear-gradient(-90deg, rgba(255,255,255,1) 54%, rgba(234,252,249,1) 100%, rgba(204,248,240,1) 100%);
+    /* min-height: 100vh;
+    width: 100vw; */
+    
+    /* min-width: 100%; */
+    /* min-height: 100%; */
+}
+
+.homeBackGradient {
+    background-color: #74EBD5;
+background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+    position:absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    border-top: #fff 50px solid;
+    border-bottom: #fff 50px solid;
+    /* Border with radius */
+    /* border-left: #fff 50px solid; */
+
+    /* min-width: 100%; */
+    /* min-height: 100%; */
+}
+
+
+.homeBackImage {
+        background-image: url("/home.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(255, 0, 0, 0.481); 
+        background-blend-mode: screen;
+        position:absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+      
+}
+
+.homeBackRound1 {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.homeSlideBack {
+    background-color: #fff;
+}
+
+.btnWhite {
+    background-color: white;
+    transition: all 0.2s;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #000;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin: 30px;
+    padding: 10px 20px;
+    min-width: 100px;
+
+  }
+  
+  .btnWhite:hover {
+    background-color: lightgray;
+    cursor: pointer;
+
+  }

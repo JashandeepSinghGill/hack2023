@@ -19,10 +19,10 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "Components/SideNavBar.jsx",
-    "Components/SideNavBar.jsx",
+    "Components/NavBar.jsx",
+    "Components/NavBar.jsx",
     "Components/Nav/Sidebar.jsx",
-    "services/useSide.js",
+    "services/useSide.js"
   ],
   "exclude": ["node_modules"]
 }

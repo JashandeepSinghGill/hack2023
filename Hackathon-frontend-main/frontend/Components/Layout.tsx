@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useSide } from "../services/useSide";
 // import SideNavbar from "./SideNavBar";
 import { useRouter } from "next/router";
+import NavBar from "./NavBar";
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
   const router = useRouter();
@@ -28,7 +29,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
 
   return (
     <>
-      {/* <SideNavbar /> */}
+      <NavBar />
       <main style={{ marginLeft: expanded ? "255px" : "75px" }}>
         {children}
       </main>

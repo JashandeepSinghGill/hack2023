@@ -1,0 +1,74 @@
+.navDrop a {
+  margin-left: 0.5vw;
+  padding: 0px !important;
+}
+.navTitle {
+  font-size: 1.5rem !important;
+  font-family: "Chivo", sans-serif;
+  font-weight: 300;
+  margin-right: 1.2vw;
+}
+.NavDropdownTitle {
+  font-size: 1.5rem !important;
+  font-family: "Chivo", sans-serif;
+  font-weight: 300;
+}
+.navBar {
+  background: #ece9e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #ece9e6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #ece9e6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  padding: 0;
+}
+.navBarBg {
+  background-color: rgb(255, 255, 255) !important;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  padding: 0;
+}
+
+/* For Navbar Dropdown */
+.eventsNav {
+  font-size: 1rem !important;
+  font-family: "Chivo", sans-serif;
+  font-weight: 300;
+}
+.singleDropdownNav {
+  font-size: 1rem !important;
+  font-family: "Chivo", sans-serif;
+  font-weight: 300;
+}
+.dropdownItem {
+  color: #000000 !important;
+  background-color: #ffffff !important;
+}
+
+.dropdownItem:hover {
+  background-color: #ffffff !important;
+  color: #dca927 !important;
+  font-weight: 800 !important;
+}
+
+@media only screen and (min-width: 990px) {
+  .eventsNav {
+    width: 27em;
+    padding-bottom: 1em;
+  }
+  .singleDropdownNav {
+    width: 10.5em;
+    padding-bottom: 1em;
+  }
+}
