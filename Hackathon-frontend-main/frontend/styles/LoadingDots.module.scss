@@ -1,0 +1,53 @@
+// @import './variables.scss';
+
+$width: 50px;
+$animationDuration: 1s;
+$color: rgb(0, 0, 0);
+
+.ballLoader{
+    width: $width;
+    height: $width / 3;
+    position: absolute;
+    // top: 50%;
+    // left: 50%;
+    // transform: translateX(-50%) translateY(-50%);
+    display: flex;
+  }
+  
+  .ballLoaderBall{
+    will-change: transform;
+    height: $width / 11 * 3;
+    width: $width / 11 * 3;
+    border-radius: 50%;
+    background-color: $color;
+    display: inline-block;
+    animation: grow $animationDuration ease-in-out infinite alternate;
+    transform-origin: 50% 50%;
+    
+    &.ball1{
+      margin-right: $width / 11;
+    }
+    
+    &.ball2{
+      margin-right: $width / 11;
+      animation-delay: - $animationDuration * .33;
+    }
+    
+    &.ball3{
+      animation-delay: - $animationDuration * .66;
+    }
+  }
+  
+  @keyframes grow{
+    0%{
+      transform: scale(1);
+      background-color: $color;
+    }
+    50%{
+      background-color: rgb(0, 0, 0);
+    }
+    100%{
+      transform: scale(.2);
+      background-color: rgb(0, 0, 0);
+    }
+  }
